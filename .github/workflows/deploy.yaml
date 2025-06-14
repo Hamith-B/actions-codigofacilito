@@ -1,0 +1,11 @@
+name: Deploy server
+
+on: push
+
+jobs:
+  first_jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hola mundo # This line is correctly indented
+        run: echo "Holamundo" # THIS LINE needed two more spaces of indentation
